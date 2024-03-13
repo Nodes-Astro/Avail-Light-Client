@@ -18,6 +18,13 @@ curl -sSL -o avail.sh https://raw.githubusercontent.com/Nodes-Astro/Avail-Light-
 ```
 
 #### ⚠️ Kurulum sistem özelliklerinize bağlı olarak 25-30 dk sürebilir, screende çalıştığı için terminalden çıkış yapabilirsiniz. Sonrasında "screen -r" ile screene girip  kurulum tamamlanmış mı kontrol edebilirsiniz.
+
+#### ℹ️ Kurulum esnasında kurulum aşamalarını takip etmek isterseniz screenden çıkıp şu komutu çalıştırabilirsiniz:
+
+```
+tail -f ./log.txt
+```
+
 ## Logları görüntüleyip kontrol edelim
 
 ```

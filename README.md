@@ -6,7 +6,8 @@
 
 ## Screen Oluşturalım
 
-``` screen -S light
+```
+screen -S light
 ```
 #### ℹ️ Screen'den çıkmak için " CTRL + A + D " tekrar girmek için ise screen -r kullanabilirsiniz.
 

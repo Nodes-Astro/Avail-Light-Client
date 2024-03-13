@@ -36,5 +36,5 @@ journalctl -f -u availd.service
 
 #### Node'u kurarken hata aldıysanız ve yardım arıyorsanız [telegram] (https://t.me/Avail_TR/1) grubumuza katılabilirsiniz.
 
-#### Güncel duyuruları takip etmek istiyorsanız [X] (https://twitter.com/AvailTurkiye) hesabımızı takip edebilirsiniz.
+#### Güncel duyuruları takip etmek istiyorsanız [[X] (https://twitter.com/AvailTurkiye)] hesabımızı takip edebilirsiniz.
 

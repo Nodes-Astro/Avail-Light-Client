@@ -25,7 +25,7 @@ curl -sSL -o avail.sh https://raw.githubusercontent.com/Nodes-Astro/Avail-Light-
 tail -f ./log.txt
 ```
 
-## Logları görüntüleyip kontrol edelim
+## Kurulum tamamlandıktan sonra logları görüntüleyip kontrol edelim
 
 ```
 journalctl -f -u availd.service
@@ -34,14 +34,20 @@ journalctl -f -u availd.service
 ![image](https://github.com/Nodes-Astro/Avail-Light-Client/assets/105454859/a3bddf2c-fb60-48a4-ad57-e162f87a10fd)
 
 
-#### ℹ️ Kurulum tamamlandıktan sonra loglar bu şekilde gözükmelidir. Çıktılarınız bu şekilde ise kurulum tamamlandı hayırlı olsun!
+#### ℹ️ Loglar böyle gözükmelidir. Çıktılarınız bu şekilde ise kurulum tamamlandı hayırlı olsun!
 
 
 ## Faydalı Linkler
 
-#### Daha önce hiç node kurmadım sunucu kiralamayı ve terminal kullanmayı bilmiyorum diyorsanız tıklayın
+#### Daha önce hiç node kurmadım sunucu kiralamayı ve terminal kullanmayı bilmiyorum diyorsanız rehberimizi inceleyebilirsiniz:
 
-#### Node'u kurarken hata aldıysanız ve yardım arıyorsanız telegram (https://t.me/Avail_TR/1) grubumuza katılabilirsiniz.
+https://github.com/Nodes-Astro/Sunucu-Kiralama/blob/main/README.md
 
-#### Güncel duyuruları takip etmek istiyorsanız X (https://twitter.com/AvailTurkiye) hesabımızı takip edebilirsiniz.
+#### Node'u kurarken hata aldıysanız ve yardım arıyorsanız telegram grubumuza katılabilirsiniz:
+
+https://t.me/Avail_TR
+
+#### Güncel duyuruları takip etmek istiyorsanız X (https://twitter.com/AvailTurkiye) hesabımızı takip edebilirsiniz:
+
+https://twitter.com/AvailTurkiye
 

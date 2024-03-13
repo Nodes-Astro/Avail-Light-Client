@@ -17,8 +17,7 @@ screen -S light
 curl -sSL -o avail-light-kurulum.sh https://raw.githubusercontent.com/Nodes-Astro/Avail-Light-Client/main/avail.sh && chmod +x babylon-kurulum.sh && bash ./avail.sh
 ```
 
-#### ⚠️ Kurulum sistem özelliklerinize bağlı olarak 25-30 dk sürebilir, CTRL + A + D ile screenden çıktıktan sonra terminalden çıkabilirsiniz. (screen -r ile yeniden girip kurulumu kontrol edebilirsiniz)
-
+#### ⚠️ Kurulum sistem özelliklerinize bağlı olarak 25-30 dk sürebilir, screende çalıştığı için terminalden çıkış yapabilirsiniz. Sonrasında "screen -r" ile screene girip  kurulum tamamlanmış mı kontrol edebilirsiniz.
 ## Logları görüntüleyip kontrol edelim
 
 ```

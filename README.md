@@ -30,4 +30,11 @@ journalctl -f -u availd.service
 #### ℹ️ Kurulum tamamlandıktan sonra loglar bu şekilde gözükmelidir. Çıktılarınız bu şekilde ise kurulum tamamlandı hayırlı olsun!
 
 
+## Faydalı Linkler
+
+#### Daha önce hiç node kurmadım sunucu kiralamayı ve terminal kullanmayı bilmiyorum diyorsanız tıklayın
+
+#### Node'u kurarken hata aldıysanız ve yardım arıyorsanız [telegram] (https://t.me/Avail_TR/1) grubumuza katılabilirsiniz.
+
+#### Güncel duyuruları takip etmek istiyorsanız [X] (https://twitter.com/AvailTurkiye) hesabımızı takip edebilirsiniz.
 

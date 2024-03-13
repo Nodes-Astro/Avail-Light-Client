@@ -29,7 +29,7 @@ touch /root/log.txt
 printf  "Ubuntu gereklilikleri kuruluyor... \033[0;32m"
 sudo apt update > /root/log.txt 2>&1 && sudo apt upgrade -y > /root/log.txt 2>&1
 echo "DONE!"
-echo  "\e[0m" #console rengi resetlendi
+echo  -e "\e[0m" #console rengi resetlendi
 
 
 #Install Packages
@@ -38,7 +38,7 @@ sudo apt-get install build-essential -y > /root/log.txt 2>&1
 sudo apt-get install --assume-yes git clang -y > /root/log.txt 2>&1
 sudo sudo apt-get install --assume-yes libssl-dev protobuf-compiler -y > /root/log.txt 2>&1
 echo "DONE!"
-echo  "\e[0m" #console rengi resetlendi
+echo  -e "\e[0m" #console rengi resetlendi
 
 
 #Install Rust
@@ -50,7 +50,7 @@ rustup update > /root/log.txt 2>&1
 rustup update nightly  > /root/log.txt 2>&1
 rustup target add wasm32-unknown-unknown --toolchain nightly > /root/log.txt 2>&1
 echo "DONE!"
-echo  "\e[0m" #console rengi resetlendi
+echo  -e "\e[0m" #console rengi resetlendi
 
 #Avail Light Node Installing
 printf  "Avail Light Client yükleniyor... (Bu aşama donanım özelliklerinize göre 20-30dk arası sürebilmektedir. Lütfen kurulum esnasında bağlantıyı kesmeyiniz)   \033[0;32m" && sleep 1
@@ -59,7 +59,7 @@ cd avail-light
 git checkout v1.7.9 > /root/log.txt 2>&1
 cargo build --release > /root/log.txt 2>&1
 echo "DONE!"
-echo  "\e[0m" #console rengi resetlendi
+echo -e "\e[0m" #console rengi resetlendi
 
 #Systemd service creating
 printf  "Avail Light Client servisi oluşturuluyor...  \033[0;32m" && sleep 1
@@ -78,8 +78,9 @@ RestartSec=120
 [Install]
 WantedBy=multi-user.target
 EOF
+
 echo "DONE!"
-echo  "\e[0m" #console rengi resetlendi
+echo -e "\e[0m" #console rengi resetlendi
 
 
 #Avail Light Node Service starting
@@ -90,7 +91,7 @@ echo "DONE!\n"
 
 
 echo "######## Kurulum tamamlandı ##########"
-echo  "\e[0m" #console rengi resetlendi
+echo  -e "\e[0m" #console rengi resetlendi
 
 echo "Servis durumunu kontrol etmek için: systemctl status availd.service"
 echo "Node loglarını görüntülemek için: journalctl -f -u availd"

@@ -9,7 +9,7 @@
 
 #### - RAM 4 GB 
 #### - CPU (AMD64/x86 architecture) 2 cores
-#### - Depolama (SSD)20–40 GB 
+#### - Depolama (SSD) 20–40 GB 
 
 ## Screen Oluşturalım
 

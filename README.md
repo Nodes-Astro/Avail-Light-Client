@@ -1,4 +1,4 @@
-# Avail-Light-Client-Kurulum
+# Avail Light Client Kolay Kurulum
 
 ![image](https://github.com/Nodes-Astro/Avail-Light-Client/assets/105454859/3b486833-e898-4e68-8570-06c84f0de701)
 

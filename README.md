@@ -4,6 +4,13 @@
 
 ### Avail Light Client kolay kurulum scripti ile light nodeunuzu rahatlıkla kurabilirsiniz.
 
+
+## 🧊 Sistem Gereksinimleri
+
+#### - RAM 4 GB 
+#### - CPU (AMD64/x86 architecture) 2 cores
+#### - Depolama (SSD)20–40 GB 
+
 ## Screen Oluşturalım
 
 ```

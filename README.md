@@ -54,7 +54,7 @@ https://github.com/Nodes-Astro/Sunucu-Kiralama/blob/main/README.md
 
 https://t.me/Avail_TR
 
-#### Güncel duyuruları takip etmek istiyorsanız Twitter hesabımızı takip edebilirsiniz:
+#### Güncel duyurulardan haberdar olmak istiyorsanız Twitter hesabımızı takip edebilirsiniz:
 
 https://twitter.com/AvailTurkiye
 

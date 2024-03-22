@@ -48,7 +48,7 @@ journalctl -f -u availd.service
 
 #### Daha önce hiç node kurmadım, sunucu kiralamayı ve terminal kullanmayı bilmiyorum diyorsanız bu rehberimizi inceleyebilirsiniz:
 
-https://github.com/Nodes-Astro/Sunucu-Kiralama/blob/main/README.md
+https://github.com/Nodes-Astro/Sunucu-Kiralama
 
 #### Node'u kurarken hata aldıysanız ve yardım arıyorsanız telegram grubumuza katılabilirsiniz:
 

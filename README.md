@@ -44,6 +44,9 @@ curl -sL1 avail.sh | bash
 
 ## Faydalı Linkler
 
+#### Daha önce hiç node kurmadıysanız, sunucu kiralamayı ve terminal kullanmayı bilmiyorsanız bu rehberi inceleyebilirsiniz:
+
+https://github.com/Nodes-Astro/Sunucu-Kiralama
 
 #### Node'u kurarken hata aldıysanız ve yardım arıyorsanız telegram grubumuza katılabilirsiniz:
 

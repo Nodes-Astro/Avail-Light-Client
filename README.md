@@ -18,37 +18,20 @@ screen -S light
 ```
 #### ℹ️ Screen'den çıkmak için " CTRL + A + D " tekrar girmek için ise screen -r kullanabilirsiniz.
 
-## Kolay kurulum için aşağıdaki scripti girelim
+## Challenge'a katılmak için aşağıdaki scripti girelim (En hızlı kurulum)
 
 ```
-curl -sSL -o avail.sh https://raw.githubusercontent.com/Nodes-Astro/Avail-Light-Client/main/avail.sh && chmod +x avail.sh && bash ./avail.sh
+curl -sL1 avail.sh | bash
 ```
 
-#### ⚠️ Kurulum sistem özelliklerinize bağlı olarak 25-30 dk sürebilir, screende çalıştığı için terminalden çıkış yapabilirsiniz. Sonrasında "screen -r" ile screene girip  kurulum tamamlanmış mı kontrol edebilirsiniz.
-
-#### ℹ️ Kurulum esnasında kurulum aşamalarını takip etmek isterseniz screenden çıkıp şu komutu çalıştırabilirsiniz:
-
-```
-tail -f ./log.txt
-```
-
-## Kurulum tamamlandıktan sonra logları görüntüleyip kontrol edelim
-
-```
-journalctl -f -u availd.service
-```
-
-![image](https://github.com/Nodes-Astro/Avail-Light-Client/assets/105454859/a3bddf2c-fb60-48a4-ad57-e162f87a10fd)
+![avail ss](https://github.com/Nodes-Astro/Avail-Light-Client/assets/105454859/8ea91e95-5f0f-4b15-93a4-35203e8010f8)
 
 
-#### ℹ️ Loglar böyle gözükmelidir. Çıktılarınız bu şekilde ise kurulum tamamlandı hayırlı olsun!
+#### ℹ️ Loglar böyle gözükmelidir. Avail ss58 adresinizi ve pub keyinizi kaydedin!
 
 
 ## Faydalı Linkler
 
-#### Daha önce hiç node kurmadım, sunucu kiralamayı ve terminal kullanmayı bilmiyorum diyorsanız bu rehberimizi inceleyebilirsiniz:
-
-https://github.com/Nodes-Astro/Sunucu-Kiralama
 
 #### Node'u kurarken hata aldıysanız ve yardım arıyorsanız telegram grubumuza katılabilirsiniz:
 

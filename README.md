@@ -41,6 +41,18 @@ curl -sL1 avail.sh | bash
 
 #### ℹ️ Etkinlik 2 Nisan'dan 9 Nisan'a kadar devam edecek bu süre zarfı boyunca nodeunuzu açık tutun gelen duyuruya göre kısa bir süre nodeumuzu çalıştırıp ardından makineyi kapatabiliriz, şimdiden hayırlı olsun!
 
+## Faydalı Komutlar
+
+#### Node'unuzun sağlık durumunu kontrol etmek için aşağıdaki komutu kullanabilirsiniz:
+
+```
+curl -I "localhost:7000/health"
+```
+
+![image](https://github.com/Nodes-Astro/Avail-Light-Client/assets/105454859/1ac8bd87-8760-476f-bfed-05dc0adcb4da)
+
+#### 200 OK diyorsa sorun yok demektir, demiyorsa telegram kanalımızda bizlerden yardım alabilirsiniz
+
 
 ## Faydalı Linkler
 

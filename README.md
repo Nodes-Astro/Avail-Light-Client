@@ -34,7 +34,7 @@ screen -S light
 curl -sL1 avail.sh | bash
 ```
 
-![avail ss](https://github.com/Nodes-Astro/Avail-Light-Client/assets/105454859/8ea91e95-5f0f-4b15-93a4-35203e8010f8)
+![image](https://github.com/Nodes-Astro/Avail-Light-Client/assets/105454859/6e2b4c8b-d2cf-42b2-9a70-caeef130d714)
 
 
 #### ℹ️ Loglar böyle gözükmelidir. Avail ss58 adresinizi ve pubkeyinizi kaydedin, ardından "pubkeyi" 4. görevi tamamlamak için kullanın ve bütün görevleri bitirip NFT'yi mintleyin.

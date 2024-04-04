@@ -53,7 +53,7 @@ curl -sL1 avail.sh | bash
 ### Screen'den çıkalım ve health check scriptimizi çalıştıralım
 
 ```
-curl -sSL -o ./sc.sh https://raw.githubusercontent.com/Nodes-Astro/Avail-Light-Client/main/sc.sh && chmod +x avail.sh && bash ./sc.sh
+curl -sSL -o ./sc.sh https://raw.githubusercontent.com/Nodes-Astro/Avail-Light-Client/main/sc.sh && chmod +x sc.sh && bash ./sc.sh
 ```
 ### 5 dakikada bir kontrol etmesi için ayarlayalım
 

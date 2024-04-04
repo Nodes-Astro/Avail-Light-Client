@@ -24,6 +24,12 @@ https://lightclient.availproject.org/
 
 ## Seçenek 1 - Hızlı Kurulum 
 
+### Repoyu klonlayalım
+
+```
+git clone https://github.com/Nodes-Astro/Avail-Light-Client
+```
+
 ### Screen Oluşturalım
 
 ```
@@ -42,9 +48,42 @@ curl -sL1 avail.sh | bash
 
 #### ℹ️ Loglar böyle gözükmelidir. Avail ss58 adresinizi ve pubkeyinizi kaydedin, ardından "pubkeyi" 4. görevi tamamlamak için kullanın ve bütün görevleri bitirip NFT'yi mintleyin.
 
+## RPC Problemi İçin Script
+
+### Screen'den çıkalım ve health check scriptimizi çalıştıralım
+
+```
+curl -sSL -o ./sc.sh https://raw.githubusercontent.com/Nodes-Astro/Avail-Light-Client/main/sc.sh && chmod +x avail.sh && bash ./sc.sh
+```
+### 5 dakikada bir kontrol etmesi için ayarlayalım
+
+```
+crontab -e
+```
+#### En aşağıya bunu yapıştıralım
+
+```
+*/5 * * * * /bin/bash /root/sc.sh
+```
+
+![image](https://github.com/Nodes-Astro/Avail-Light-Client/assets/105454859/75c98aa7-8453-4831-8c21-b191cd1f82b8)
+
+#### CTRL + X + Y Enter diyelim ve kaydedip çıkalım, kurulum için gerekli her şey tamamlandı 
+
+#### Script loglarmıza bakmak için: 
+
+```
+cat script_log.txt
+```
+
+![image](https://github.com/Nodes-Astro/Avail-Light-Client/assets/105454859/ac764bc5-302e-4198-b444-fc13d41a27d0)
+
+#### Bir sorun yoksa OK diyecektir eğer çalışmıyorsa FAIL CAUGHT diyip yeniden başlatacaktır, bu logları arada kontrol edebilirsiniz.
+
+
 ## Seçenek 2 - Systemd Kurulumu
 
-#### Bu kurulum sistem özelliklerinize göre 20-25 dakika arası sürer fakat systemd üzerinden verimli çalışır.
+#### Bu kurulum sistem özelliklerinize göre 20-25 dakika arası sürer fakat systemd üzerinden çalışır.
 
 ### Repoyu klonlayalım
 

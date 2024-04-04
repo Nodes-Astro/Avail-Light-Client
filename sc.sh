@@ -15,7 +15,7 @@ if echo "$output" | grep -q "HTTP/1.1 200"; then
 # başarısız olduysa
 elif echo "$output" | grep -q "Connection refused"; then
     echo "$current_datetime - FAIL CAUGHT. NODE IS RESTARTING..." >> "$log_file"
-    screen -S 52433.light -X stuff $"curl curl -sL1 avail.sh | bash\n"
+    screen -S light -X stuff $"curl curl -sL1 avail.sh | bash\n"
 # diğer durumlarda
 else
     echo "$current_datetime - ERROR: $output" >> "$log_file"

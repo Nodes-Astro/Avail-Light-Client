@@ -60,6 +60,8 @@ curl -sSL -o ./sc.sh https://raw.githubusercontent.com/Nodes-Astro/Avail-Light-C
 ```
 crontab -e
 ```
+#### ℹ️ Burada 1 yazıp enter diyoruz.
+
 #### En aşağıya bunu yapıştıralım
 
 ```

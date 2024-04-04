@@ -14,6 +14,7 @@ https://lightclient.availproject.org/
 
 #### ℹ️ İlk 3 görevi tamamladıktan sonra artık node'umuzu kurma aşamasına geçebiliriz. (Node kurup public keyimizi girerek bir sonraki görevi yapabiliyoruz.)
 
+## Light Node Kuralım
 
 ## 🧊 Sistem Gereksinimleri
 
@@ -21,20 +22,45 @@ https://lightclient.availproject.org/
 #### - CPU (AMD64/x86 architecture) 2 cores
 #### - Depolama (SSD) 20–40 GB 
 
-## Screen Oluşturalım
+## Seçenek 1 - Hızlı Kurulum 
+
+### Screen Oluşturalım
 
 ```
 screen -S light
 ```
 #### ℹ️ Screen'den çıkmak için " CTRL + A + D " tekrar girmek için ise screen -r kullanabilirsiniz.
 
-## Challenge'a katılmak için aşağıdaki scripti girelim (En hızlı kurulum)
+### Challenge'a katılmak için aşağıdaki scripti girelim 
 
 ```
 curl -sL1 avail.sh | bash
 ```
 
 ![image](https://github.com/Nodes-Astro/Avail-Light-Client/assets/105454859/6e2b4c8b-d2cf-42b2-9a70-caeef130d714)
+
+
+#### ℹ️ Loglar böyle gözükmelidir. Avail ss58 adresinizi ve pubkeyinizi kaydedin, ardından "pubkeyi" 4. görevi tamamlamak için kullanın ve bütün görevleri bitirip NFT'yi mintleyin.
+
+## Seçenek 2 - Systemd Kurulumu
+
+#### Bu kurulum sistem özelliklerinize göre 20-25 dakika arası sürer fakat systemd üzerinden verimli çalışır.
+
+### Repoyu klonlayalım
+
+```
+git clone https://github.com/Nodes-Astro/Avail-Light-Client
+```
+
+### Screen Oluşturalım
+
+```
+curl -sSL -o ./avail.sh https://raw.githubusercontent.com/Nodes-Astro/Avail-Light-Client/main/avail.sh && chmod +x avail.sh && bash ./avail.sh
+```
+
+####  ℹ️ Kurulum başladıktan sonra CTRL + A + D ile çıkış yapabilirsiniz
+
+ ![image](https://github.com/Nodes-Astro/Avail-Light-Client/assets/105454859/6e2b4c8b-d2cf-42b2-9a70-caeef130d714)
 
 
 #### ℹ️ Loglar böyle gözükmelidir. Avail ss58 adresinizi ve pubkeyinizi kaydedin, ardından "pubkeyi" 4. görevi tamamlamak için kullanın ve bütün görevleri bitirip NFT'yi mintleyin.

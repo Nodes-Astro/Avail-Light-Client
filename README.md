@@ -70,7 +70,7 @@ crontab -e
 
 ![image](https://github.com/Nodes-Astro/Avail-Light-Client/assets/105454859/75c98aa7-8453-4831-8c21-b191cd1f82b8)
 
-#### CTRL + X -- Y + Enter diyelim ve kaydedip çıkalım, kurulum için gerekli her şey tamamlandı 
+#### CTRL + X    Y + Enter diyelim ve kaydedip çıkalım, kurulum için gerekli her şey tamamlandı 
 
 #### Script loglarmıza bakmak için: 
 

@@ -56,7 +56,7 @@ echo  -e "\e[0m" #console rengi resetlendi
 printf  "Avail Light Client yükleniyor... (Bu aşama donanım özelliklerinize göre 20-30dk arası sürebilmektedir. Screende çalıştığı için açık tutmanıza gerek yoktur. CTRL + A + D ile çıkış yapabilirsiniz.)   \033[0;32m" && sleep 1
 git clone https://github.com/availproject/avail-light.git > /root/log.txt 2>&1
 cd avail-light
-git checkout v1.7.9 > /root/log.txt 2>&1
+git checkout v1.7.10 > /root/log.txt 2>&1
 cargo build --release > /root/log.txt 2>&1
 echo "DONE!"
 echo -e "\e[0m" #console rengi resetlendi

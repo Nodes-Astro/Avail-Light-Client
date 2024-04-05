@@ -55,7 +55,7 @@ git clone https://github.com/Nodes-Astro/Avail-Light-Client
 ```
 curl -sSL -o ./sc.sh https://raw.githubusercontent.com/Nodes-Astro/Avail-Light-Client/main/sc.sh && chmod +x sc.sh && bash ./sc.sh
 ```
-### ⚠️ Screen adı "light" olmazsa script çalışmaz, scriptin çalışması için light isimli bir screende node kurulumu yapıyor olmanız gerekiyor.
+#### ⚠️ Screen adı "light" olmazsa script çalışmaz, scriptin çalışması için light isimli bir screende node kurulumu yapıyor olmanız gerekiyor.
 
 ### 5 dakikada bir kontrol etmesi için ayarlayalım
 

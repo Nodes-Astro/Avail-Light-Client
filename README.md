@@ -24,12 +24,6 @@ https://lightclient.availproject.org/
 
 ## Seçenek 1 - Hızlı Kurulum 
 
-### Repoyu klonlayalım
-
-```
-git clone https://github.com/Nodes-Astro/Avail-Light-Client
-```
-
 ### Screen Oluşturalım
 
 ```
@@ -50,11 +44,19 @@ curl -sL1 avail.sh | bash
 
 ## RPC Problemi İçin Script
 
+### Repoyu klonlayalım
+
+```
+git clone https://github.com/Nodes-Astro/Avail-Light-Client
+```
+
 ### Screen'den çıkalım ve health check scriptimizi çalıştıralım
 
 ```
 curl -sSL -o ./sc.sh https://raw.githubusercontent.com/Nodes-Astro/Avail-Light-Client/main/sc.sh && chmod +x sc.sh && bash ./sc.sh
 ```
+### ⚠️ Screen adı "light" olmazsa script çalışmaz, scriptin çalışması için light isimli bir screende node kurulumu yapıyor olmanız gerekiyor.
+
 ### 5 dakikada bir kontrol etmesi için ayarlayalım
 
 ```

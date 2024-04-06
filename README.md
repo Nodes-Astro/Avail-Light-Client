@@ -42,6 +42,18 @@ curl -sL1 avail.sh | bash
 
 #### ℹ️ Loglar böyle gözükmelidir. Avail ss58 adresinizi ve pubkeyinizi kaydedin, ardından "pubkeyi" 4. görevi tamamlamak için kullanın ve bütün görevleri bitirip NFT'yi mintleyin.
 
+## Node kurarken Oluşan Cüzdanın Seedini kaydedelim
+
+#### CTRL + A + D ile screenden çıktıktan sonra aşağıdaki komutları girelim
+
+```
+cd
+cat .avail/identity/identity.toml
+```
+#### ⚠️ Kelimeleri kaydedelim bazen node'umuzu restart ederken yeni cüzdan generate ediliyor, (wsl'de bu sorun yaşanıyor) böyle bir durumda tekrardan NFT mintlediğimiz pubkey'e geri dönmek için bunu kaydedelim
+
+#### ℹ️ Node aktarma veya bahsettiğim üzere farklı pubkey gördüğünüz durumlarda identity.toml dosyasını ilk başta aldığınız kelimeler ile değiştirerek node'unuzu koruyabilirsiniz.
+
 ## RPC Problemi İçin Script
 
 ### Repoyu klonlayalım

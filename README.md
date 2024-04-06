@@ -22,7 +22,7 @@ https://lightclient.availproject.org/
 #### - CPU (AMD64/x86 architecture) 2 cores
 #### - Depolama (SSD) 20–40 GB 
 
-## Seçenek 1 - Hızlı Kurulum 
+## Hızlı Node Kurulum 
 
 ### Screen Oluşturalım
 
@@ -83,30 +83,6 @@ cat script_log.txt
 ![image](https://github.com/Nodes-Astro/Avail-Light-Client/assets/105454859/ac764bc5-302e-4198-b444-fc13d41a27d0)
 
 #### Bir sorun yoksa OK diyecektir eğer çalışmıyorsa FAIL CAUGHT diyip yeniden başlatacaktır, bu logları arada kontrol edebilirsiniz.
-
-
-## Seçenek 2 - Systemd Kurulumu
-
-#### Bu kurulum sistem özelliklerinize göre 20-25 dakika arası sürer fakat systemd üzerinden çalışır.
-
-### Repoyu klonlayalım
-
-```
-git clone https://github.com/Nodes-Astro/Avail-Light-Client
-```
-
-### Screen Oluşturalım
-
-```
-curl -sSL -o ./avail.sh https://raw.githubusercontent.com/Nodes-Astro/Avail-Light-Client/main/avail.sh && chmod +x avail.sh && bash ./avail.sh
-```
-
-####  ℹ️ Kurulum başladıktan sonra CTRL + A + D ile çıkış yapabilirsiniz
-
- ![image](https://github.com/Nodes-Astro/Avail-Light-Client/assets/105454859/6e2b4c8b-d2cf-42b2-9a70-caeef130d714)
-
-
-#### ℹ️ Loglar böyle gözükmelidir. Avail ss58 adresinizi ve pubkeyinizi kaydedin, ardından "pubkeyi" 4. görevi tamamlamak için kullanın ve bütün görevleri bitirip NFT'yi mintleyin.
 
 #### ℹ️ Etkinlik 2 Nisan'dan 9 Nisan'a kadar devam edecek bu süre zarfı boyunca nodeunuzu açık tutun gelen duyuruya göre kısa bir süre nodeumuzu çalıştırıp ardından makineyi kapatabiliriz, şimdiden hayırlı olsun!
 
